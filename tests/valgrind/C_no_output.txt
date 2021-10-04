@@ -1,0 +1,20 @@
+==309854== Memcheck, a memory error detector
+==309854== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==309854== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==309854== Command: ../y86 inputs/simple.o
+==309854== 
+==309854== 
+==309854== HEAP SUMMARY:
+==309854==     in use at exit: 472 bytes in 1 blocks
+==309854==   total heap usage: 2 allocs, 1 frees, 8,664 bytes allocated
+==309854== 
+==309854== LEAK SUMMARY:
+==309854==    definitely lost: 0 bytes in 0 blocks
+==309854==    indirectly lost: 0 bytes in 0 blocks
+==309854==      possibly lost: 0 bytes in 0 blocks
+==309854==    still reachable: 472 bytes in 1 blocks
+==309854==         suppressed: 0 bytes in 0 blocks
+==309854== Rerun with --leak-check=full to see details of leaked memory
+==309854== 
+==309854== For lists of detected and suppressed errors, rerun with: -s
+==309854== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,26 @@
+==309984== Memcheck, a memory error detector
+==309984== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==309984== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==309984== Command: ../y86 -H inputs/stack.o
+==309984== 
+01 00 00 01 10 00 05 00  f4 00 16 01 45 4c 46 00
+Mini-ELF version 1
+Entry point 0x100
+There are 5 program headers, starting at offset 16 (0x10)
+There is a symbol table starting at offset 244 (0xf4)
+There is a string table starting at offset 278 (0x116)
+==309984== 
+==309984== HEAP SUMMARY:
+==309984==     in use at exit: 472 bytes in 1 blocks
+==309984==   total heap usage: 3 allocs, 2 frees, 16,856 bytes allocated
+==309984== 
+==309984== LEAK SUMMARY:
+==309984==    definitely lost: 0 bytes in 0 blocks
+==309984==    indirectly lost: 0 bytes in 0 blocks
+==309984==      possibly lost: 0 bytes in 0 blocks
+==309984==    still reachable: 472 bytes in 1 blocks
+==309984==         suppressed: 0 bytes in 0 blocks
+==309984== Rerun with --leak-check=full to see details of leaked memory
+==309984== 
+==309984== For lists of detected and suppressed errors, rerun with: -s
+==309984== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

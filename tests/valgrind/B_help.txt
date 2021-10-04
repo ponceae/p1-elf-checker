@@ -1,0 +1,18 @@
+==309885== Memcheck, a memory error detector
+==309885== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==309885== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==309885== Command: ../y86 -h
+==309885== 
+Usage: ../y86 <option(s)> mini-elf-file
+ Options are:
+  -h      Display usage
+  -H      Show the Mini-ELF header
+==309885== 
+==309885== HEAP SUMMARY:
+==309885==     in use at exit: 0 bytes in 0 blocks
+==309885==   total heap usage: 1 allocs, 1 frees, 8,192 bytes allocated
+==309885== 
+==309885== All heap blocks were freed -- no leaks are possible
+==309885== 
+==309885== For lists of detected and suppressed errors, rerun with: -s
+==309885== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
